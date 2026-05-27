@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#praticas">Práticas Sustentáveis</a></li>
+                <li><a href="#interativo">Interativo</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="sobre">
+        <h2>Sobre o Agro Forte</h2>
+        <p>
+            O Agro Forte busca promover um futuro sustentável, equilibrando a produtividade agrícola com a preservação do meio ambiente. 
+            Isso significa usar tecnologia, planejamento e consciência ambiental para garantir alimentos de qualidade sem prejudicar a natureza.
+        </p>
+    </section>
+
+    <section id="praticas">
+        <h2>Práticas Sustentáveis</h2>
+        <ul>
+            <li>Uso racional da água e irrigação eficiente</li>
+            <li>Plantio direto e conservação do solo</li>
+            <li>Integração lavoura-pecuária-floresta</li>
+            <li>Energia limpa e redução de emissões</li>
+            <li>Proteção da biodiversidade local</li>
+        </ul>
+    </section>
+
+    <section id="interativo">
+        <h2>Teste seu conhecimento</h2>
+        <p>Qual dessas práticas é sustentável?</p>
+        <button onclick="verificar('certa')">Plantio direto</button>
+        <button onclick="verificar('errada')">Desmatamento</button>
+        <button onclick="verificar('errada')">Queimadas</button>
+        <p id="resposta"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agro Forte | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
